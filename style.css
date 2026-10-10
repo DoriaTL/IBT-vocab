@@ -13,3 +13,5 @@ select{margin-left:12px;background:white;border:1px solid #ccd8c9;border-radius:
 .nav:active{transform:translateY(0)}.nav.active{background:var(--green);border-color:var(--green);color:white;box-shadow:0 4px 12px #286b5426}.nav.active small,.nav.active .mode-icon,.nav.active::after{color:#fff}.nav.active::after{content:'✓ 当前练习'}
 @media(max-width:750px){aside>.eyebrow{display:block;width:100%;margin-bottom:8px;font-size:11px;letter-spacing:1px}.nav{flex-direction:column;justify-content:center;gap:8px;min-height:110px;padding:12px 6px 28px;text-align:center;border-radius:12px;margin-bottom:0}.nav span{font-size:13px;white-space:nowrap}.mode-icon{width:27px;height:27px}.nav::after{right:0;left:0;bottom:8px;font-size:10px}.nav:hover{transform:none}}
 @media(prefers-reduced-motion:reduce){.nav{transition:none}.nav:hover{transform:none}}
+
+.wechat-note{font-size:11px!important;color:var(--muted)!important;line-height:1.8}#slowcontext,#slow{margin-bottom:10px}input[type=text]{font-size:18px;min-height:48px}button{touch-action:manipulation}
